@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  composer:
+    image:  composer/composer:1.1
+    volumes:
+      - ${HOME}/.composer:/composer
+      - ${PWD}:/app
+
+  php7.1:
+    image:        php:7.1-cli
+    working_dir:  /app
+    volumes:
+      - .:/app
