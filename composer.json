@@ -21,5 +21,10 @@
         "psr-4": {
             "CubicMushroom\\Slim\\OAuth2\\Server\\": "src/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
