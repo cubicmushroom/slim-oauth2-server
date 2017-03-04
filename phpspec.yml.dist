@@ -1,0 +1,4 @@
+suites:
+  default_suite:
+    namespace: CubicMushroom\Slim\OAuth2\Server
+    psr4_prefix: CubicMushroom\Slim\OAuth2\Server
